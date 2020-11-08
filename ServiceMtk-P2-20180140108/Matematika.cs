@@ -28,7 +28,8 @@ namespace ServiceMtk_P2_20180140108
                 mf.Pesan = "Masukkan input yang benar";
                 throw new FaultException<MathFault>(mf);
             }
-            
+          
+
         }
 
         public int Kali(int a, int b)
